@@ -6,7 +6,7 @@
     wl-kbptr = {
       url = "github:moverest/wl-kbptr";
       flake = false;
-    }
+    };
   };
 
   outputs = {self, nixpkgs, wl-kbptr, ...}:
